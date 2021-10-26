@@ -30,6 +30,6 @@ os.system('cls')
 print("Char's occurency in the text:")
 print("letter   occurence   percentile")
 for letter in occ_char:
-    print("   "+letter +"         "+str(occ_char[letter]) +"         " + occ_char_perc[letter] +' %')
+    print("   " + letter + "         " + str(occ_char[letter]) + "         " + occ_char_perc[letter] + ' %')
 input("'ENTER' to leave the script")
 sys.exit(0)
