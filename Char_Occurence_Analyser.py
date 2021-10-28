@@ -5,7 +5,7 @@ import sys
 i = input("""Entrer text to analyse:
 >> """)
 list_char = []
-ignored_char = {' ',',',"'",'.',':',';','/','?','!'}
+ignored_char = {' ',',',"'",'.',':',';','/','?','!','*'}
 occ_char = {}
 
 #List every valid char
